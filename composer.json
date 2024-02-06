@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/mlearnig",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "sfrei",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "rubix/ml": "^2.4",
+    "rubix/tensor": "^3.0",
+    "smalot/pdfparser": "^2.8"
+  }
+}

@@ -1,0 +1,81 @@
+[
+    {
+        "overall": {
+            "accuracy": 0.9375,
+            "balanced accuracy": 0.9666666666666667,
+            "f1 score": 0.8160919540229885,
+            "precision": 0.75,
+            "recall": 0.9666666666666667,
+            "specificity": 0.9666666666666667,
+            "negative predictive value": 0.75,
+            "false discovery rate": 0.25,
+            "miss rate": 0.033333333333333326,
+            "fall out": 0.033333333333333326,
+            "false omission rate": 0.25,
+            "mcc": 0.6831300510639733,
+            "informedness": 0.9333333333333333,
+            "markedness": 0.5,
+            "true positives": 15,
+            "true negatives": 15,
+            "false positives": 1,
+            "false negatives": 1,
+            "cardinality": 16
+        },
+        "classes": {
+            "inicial": {
+                "accuracy": 0.9375,
+                "balanced accuracy": 0.9666666666666667,
+                "f1 score": 0.9655172413793104,
+                "precision": 1,
+                "recall": 0.9333333333333333,
+                "specificity": 1,
+                "negative predictive value": 0.5,
+                "false discovery rate": 0,
+                "miss rate": 0.06666666666666665,
+                "fall out": 0,
+                "false omission rate": 0.5,
+                "informedness": 0.9333333333333333,
+                "markedness": 0.5,
+                "mcc": 0.6831300510639733,
+                "true positives": 14,
+                "true negatives": 1,
+                "false positives": 0,
+                "false negatives": 1,
+                "cardinality": 15,
+                "proportion": 0.9375
+            },
+            "procuracao": {
+                "accuracy": 0.9375,
+                "balanced accuracy": 0.9666666666666667,
+                "f1 score": 0.6666666666666666,
+                "precision": 0.5,
+                "recall": 1,
+                "specificity": 0.9333333333333333,
+                "negative predictive value": 1,
+                "false discovery rate": 0.5,
+                "miss rate": 0,
+                "fall out": 0.06666666666666665,
+                "false omission rate": 0,
+                "informedness": 0.9333333333333333,
+                "markedness": 0.5,
+                "mcc": 0.6831300510639733,
+                "true positives": 1,
+                "true negatives": 14,
+                "false positives": 1,
+                "false negatives": 0,
+                "cardinality": 1,
+                "proportion": 0.0625
+            }
+        }
+    },
+    {
+        "inicial": {
+            "inicial": 14,
+            "procuracao": 0
+        },
+        "procuracao": {
+            "inicial": 1,
+            "procuracao": 1
+        }
+    }
+]
