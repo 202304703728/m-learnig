@@ -129,7 +129,7 @@
     Utiliza o método de aprendizagem Random Forest para
     construir árvores de decisão no momento do treinamento.
 
-    Foi só um teste, foi o primeiro que fiz, mas achei interessante deixar salvo dentro
+    Foi só um teste, foi o primeiro que fiz e parei (e tem muito o que fazer nele), mas achei interessante deixar salvo dentro
     do projeto para consulta.
 
     Obs: pode ser modificado para outro método, como o ClassificationTree(),
