@@ -16,6 +16,10 @@ try {
 
     ini_set('memory_limit', '-1');
 
+    // Aumentando o limite de tempo para 5 minutos
+
+    ini_set('max_execution_time', '300');
+
     $logger = new Screen();
 
     $logger->info('Carregando o conjunto de dados para a memoria...' . '<br>');
@@ -49,7 +53,9 @@ try {
 
     // Carrega as amostras e rótulos em um conjunto de dados ($dataset)
 
-    $dataset = Labeled::build($samples, $labels)->randomize()->take(10000);
+    $dataset = Labeled::build($samples, $labels)
+        ->randomize()
+        ->take(10000);
 
     // Carrega o histórico de salvamentos
 
