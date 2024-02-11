@@ -23,6 +23,12 @@
     <button type="submit">Carregar</button>
 </form>
 <br><hr>
+<form action="treina_classificador.php" enctype="multipart/form-data" METHOD="post">
+    <h2>Treinamento (NOVO - Multilayer Perceptron)</h2>
+    <br>
+    <button type="submit">Treinar</button>
+</form>
+<br><hr>
 <form action="valida_modelo.php" METHOD="post">
     <h2>Validacao do modelo</h2>
     <br>
@@ -35,17 +41,11 @@
     <input type="file" name="files[]">
     <button type="submit">Prever</button>
 </form>
-<br><hr>
-<form action="treina_classificador.php" enctype="multipart/form-data" METHOD="post">
-    <h2>Treinamento (NOVO)</h2>
-    <br>
-    <button type="submit">Treinar</button>
-</form>
-<br><hr>
+<!--br><hr>
 <form action="treina_classificador_random.php" enctype="multipart/form-data" METHOD="post">
-    <h2>Validacao e Treinamento (Random Forest)</h2>
+    <h2>Validacao e Treinamento (ANTIGO - Random Forest)</h2>
     <br>
     <button type="submit">Validar e Treinar</button>
-</form>
+</form-->
 </body>
 </html>
