@@ -25,10 +25,6 @@
     usando o método build(), randomiza a ordem, pega as 10.000 primeiras linhas
     e as coloca em um novo conjunto de dados.
 
-    Obs: em WordCountVectorizer, eu mudei o número para PHP_INT_MAX,
-    pois estava criando restrições na hora de treinar o modelo, mas neste programa
-    achei que 10.000 linhas seriam suficientes.
-
     Após, carrega o histórico de salvamentos gravado em "tipo_documento.rbx"
     e com Predict(), pega um conjunto de dados de entrada e retorna
     uma matriz de previsões.
@@ -106,6 +102,9 @@
     simplesmente conta as ocorrências. É útil para as tarefas onde a frequência dos tokens
     é essencial, como classificação de texto ou agrupamento com base na frequência das palavras.
 
+    Obs: em WordCountVectorizer, inicialmente eu mudei o valor de MaxVocabularySize para PHP_INT_MAX,
+    pois estava criando restrições na hora de treinar o modelo, mas depois retornei para 10000.
+
     Foi escolhido um tamanho de lote de 256 amostras.
     AdaMax é baseado no algoritmo Adam, mas tende a lidar melhor
     com atualizações esparsas. Ao definir a taxa de aprendizado de um otimizador,
@@ -124,7 +123,7 @@
     Para gerar as pontuações e perdas, é chamado o método steps() e o resultado é salvo
     em um arquivo CSV chamado "progresso.csv".
 
-8) Programa "treina_classificador_random.php"
+9) Programa "treina_classificador_random.php"
 
     Utiliza o método de aprendizagem Random Forest para
     construir árvores de decisão no momento do treinamento.
@@ -135,7 +134,7 @@
     Obs: pode ser modificado para outro método, como o ClassificationTree(),
     para verificar qual apresenta melhor acurácia.
 
-9) Sobre as pastas "teste", "treinamento" e "treinamento_txt"
+10) Sobre as pastas "teste", "treinamento" e "treinamento_txt"
 
     Nestas pastas são guardados os aquivos PDF do tipo petição inicial e procuração,
     na seguinte ordem:
@@ -156,20 +155,20 @@
     As pastas foram deixadas vazias no GIT porque não posso fornecer dados reais para o treinamento,
     em virtude da LGPD.
 
-10) Sobre os parâmetros passados em "valida_modelo.php" e "treina_classificador.php"
+11) Sobre os parâmetros passados em "valida_modelo.php" e "treina_classificador.php"
 
     Ainda estou ajustado, quem utilizar o código poderá modificá-los.
 
-11) Por que PHP e não Python?
+12) Por que PHP e não Python?
 
     Porque o sistema processual do meu local de trabalho foi desenvolvido em PHP,
     então achei que seria um desafio interessante desenvolver algum estudo sobre
     machine learning utilizando PHP.
 
-12) Pode melhorar?
+13) Pode melhorar?
 
     Sempre pode melhorar.
 
-13) Estou certa sobre tudo que falei aqui?
+14) Estou certa sobre tudo que falei aqui?
 
     Provavelmente não, mas espero ter contribuído de alguma maneira.
