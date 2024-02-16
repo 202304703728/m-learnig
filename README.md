@@ -143,7 +143,7 @@
         /treinamento/procuracao/ - arquivos para treinamento do modelo, do tipo procuração;
 
         /teste/inicial/ - arquivos para teste do modelo, do tipo petição inicial;
-         /teste/procuracao/ - arquivos para teste do modelo, do tipo procuração.
+        /teste/procuracao/ - arquivos para teste do modelo, do tipo procuração.
 
     A pasta "treinamento_txt" é usada para guardar o resultado da conversão dos arquivos
     de treinamento, do formato PDF para o formato TXT, e segue a mesma ordem descrita acima.
