@@ -22,28 +22,6 @@
             "cardinality": 8
         },
         "classes": {
-            "inicial": {
-                "accuracy": 0.875,
-                "balanced accuracy": 0.875,
-                "f1 score": 0.8571428571428571,
-                "precision": 1,
-                "recall": 0.75,
-                "specificity": 1,
-                "negative predictive value": 0.8,
-                "false discovery rate": 0,
-                "miss rate": 0.25,
-                "fall out": 0,
-                "false omission rate": 0.19999999999999996,
-                "informedness": 0.75,
-                "markedness": 0.8,
-                "mcc": 0.7745966692414834,
-                "true positives": 3,
-                "true negatives": 4,
-                "false positives": 0,
-                "false negatives": 1,
-                "cardinality": 4,
-                "proportion": 0.5
-            },
             "procuracao": {
                 "accuracy": 0.875,
                 "balanced accuracy": 0.875,
@@ -65,17 +43,39 @@
                 "false negatives": 0,
                 "cardinality": 4,
                 "proportion": 0.5
+            },
+            "inicial": {
+                "accuracy": 0.875,
+                "balanced accuracy": 0.875,
+                "f1 score": 0.8571428571428571,
+                "precision": 1,
+                "recall": 0.75,
+                "specificity": 1,
+                "negative predictive value": 0.8,
+                "false discovery rate": 0,
+                "miss rate": 0.25,
+                "fall out": 0,
+                "false omission rate": 0.19999999999999996,
+                "informedness": 0.75,
+                "markedness": 0.8,
+                "mcc": 0.7745966692414834,
+                "true positives": 3,
+                "true negatives": 4,
+                "false positives": 0,
+                "false negatives": 1,
+                "cardinality": 4,
+                "proportion": 0.5
             }
         }
     },
     {
-        "inicial": {
-            "inicial": 3,
-            "procuracao": 0
-        },
         "procuracao": {
-            "inicial": 1,
-            "procuracao": 4
+            "procuracao": 4,
+            "inicial": 1
+        },
+        "inicial": {
+            "procuracao": 0,
+            "inicial": 3
         }
     }
 ]
